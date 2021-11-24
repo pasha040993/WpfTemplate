@@ -1,0 +1,14 @@
+﻿<Application x:Class="WpfTemplate.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfTemplate" xmlns:local1="clr-namespace:WpfTemplate.Views"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <local1:EventColorConverter x:Key="EventColorConverter"/>
+        <local1:EventImageConverter x:Key="EventImageConverter"/>
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="FontSize" Value="14"/>
+        </Style>
+    </Application.Resources>
+</Application>

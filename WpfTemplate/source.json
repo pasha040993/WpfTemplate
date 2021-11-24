@@ -1,0 +1,194 @@
+{
+    "id": "2859979c-594c-ec11-8b95-005056a236fa",
+    "dateTime": "2021-11-23T15:33:56.063499+03:00",
+    "uniqueHash": "7f177967-7f7f-6146-4071-3add9f90c30f",
+    "totalCount": 0,
+    "substationId": "0accfc93-67a7-eb11-8bb2-0050568d4e18",
+    "substationName": "Рязанская ГРЭС",
+    "state": "Warning",
+    "source": "MSGO",
+    "equipment": [
+      {
+        "name": "ВЛ 220 кВ Новомичуринск – Заречная",
+        "normalStateOn": true,
+        "id": "7c4d41fc-67a7-eb11-8bb2-0050568d4e18",
+        "state": false
+      },
+      {
+        "name": "ВЛ 220 кВ Рязанская ГРЭС – Новомичуринск",
+        "normalStateOn": true,
+        "id": "734d41fc-67a7-eb11-8bb2-0050568d4e18",
+        "state": false
+      },
+      {
+        "name": "ВЛ 220 кВ Рязанская ГРЭС – Пущино",
+        "normalStateOn": true,
+        "id": "764d41fc-67a7-eb11-8bb2-0050568d4e18",
+        "state": false
+      },
+      {
+        "name": "ВЛ 500 кВ Рязанская ГРЭС – Михайловская Западная",
+        "normalStateOn": true,
+        "id": "023441fc-67a7-eb11-8bb2-0050568d4e18",
+        "state": false
+      }
+    ],
+    "generators": [
+      {
+        "name": "ТГ-1",
+        "normalStateOn": true,
+        "id": "fe29549a-67a7-eb11-8bb2-0050568d4e18",
+        "state": false
+      },
+      {
+        "name": "ТГ1 Блок 1",
+        "normalStateOn": true,
+        "id": "c527549a-67a7-eb11-8bb2-0050568d4e18",
+        "state": false
+      },
+      {
+        "name": "ТГ-2",
+        "normalStateOn": true,
+        "id": "6424549a-67a7-eb11-8bb2-0050568d4e18",
+        "state": false
+      },
+      {
+        "name": "ТГ-3",
+        "normalStateOn": true,
+        "id": "e62f549a-67a7-eb11-8bb2-0050568d4e18",
+        "state": true
+      },
+      {
+        "name": "ТГ-4",
+        "normalStateOn": true,
+        "id": "2d2e549a-67a7-eb11-8bb2-0050568d4e18",
+        "state": false
+      },
+      {
+        "name": "ТГ-5",
+        "normalStateOn": true,
+        "id": "172a549a-67a7-eb11-8bb2-0050568d4e18",
+        "state": false
+      },
+      {
+        "name": "ТГ-6",
+        "normalStateOn": true,
+        "id": "f424549a-67a7-eb11-8bb2-0050568d4e18",
+        "state": false
+      }
+    ],
+    "msgoTableId": "98847efb-e10f-ec11-8ba2-0050568db088",
+    "genBlockId": "d6847efb-e10f-ec11-8ba2-0050568db088",
+    "substationStateHistoryId": "2759979c-594c-ec11-8b95-005056a236fa",
+    "directives": [
+      {
+        "id": "16857efb-e10f-ec11-8ba2-0050568db088",
+        "genBlockId": "d6847efb-e10f-ec11-8ba2-0050568db088",
+        "mustReviewEquipments": [],
+        "startDirectiveType": "Warning",
+        "endDirectiveType": "Warning",
+        "value": "[{\"id\":\"1602509446350Операции\",\"operator\":\"Operations\",\"children\":[{\"id\":\"1602509449837\",\"operator\":\"ProvideInWork\",\"children\":[{\"id\":\"1614581434510\",\"operator\":\"FromToOf\",\"value\":{\"from\":1,\"to\":2,\"equipments\":[{\"id\":\"e8f4b21c-69a7-eb11-8bb2-0050568d4e18\",\"title\":\"4Т\"},{\"id\":\"4d07b31c-69a7-eb11-8bb2-0050568d4e18\",\"title\":\"1Т ГРЭС-24\",\"prefix\":\"ГРЭС-24\"}]},\"children\":[]}]}]},{\"id\":\"1269433496727\",\"operator\":\"Operations\",\"children\":[{\"id\":\"1269433496712\",\"operator\":\"PerformOneOf\",\"children\":[{\"id\":\"1602510392962Операции\",\"operator\":\"Operations\",\"children\":[{\"id\":\"1602510395486\",\"operator\":\"ProvideInWork\",\"children\":[{\"id\":\"c342ba57-a054-4b21-94cf-844f77c47a68\",\"operator\":\"EquipmentWithControl\",\"value\":{\"startText\":\"\",\"endText\":\"\",\"equipments\":[{\"id\":\"fd51cc56-69a7-eb11-8bb2-0050568d4e18\",\"title\":\"ДФЗ ВЛ 500 кВ Рязанская ГРЭС – Липецкая Восточная (ШЭ2710 582)\"}]},\"children\":[]}]}]},{\"id\":\"1602754379163Операции\",\"operator\":\"Operations\",\"children\":[{\"id\":\"1602754381856\",\"operator\":\"ProvideInWork\",\"children\":[{\"id\":\"1aaf0687-7d05-4741-897b-9a17dbc859cc\",\"operator\":\"EquipmentWithControl\",\"value\":{\"startText\":\"ТУ\",\"endText\":\"\",\"equipments\":[{\"id\":\"1f6efa4e-69a7-eb11-8bb2-0050568d4e18\",\"title\":\"Резервные защиты 2 комплект ВЛ 500 кВ Рязанская ГРЭС – Липецкая Восточная (7SA522)\"}]},\"children\":[]}]}]},{\"id\":\"1602754379163Операции\",\"operator\":\"Operations\",\"children\":[{\"id\":\"1602754381856\",\"operator\":\"ProvideInWork\",\"children\":[{\"id\":\"0dd38a86-9187-4fb0-8c91-79264104ca4e\",\"operator\":\"EquipmentWithControl\",\"value\":{\"startText\":\"ТУ\",\"endText\":\"\",\"equipments\":[{\"id\":\"927afa4e-69a7-eb11-8bb2-0050568d4e18\",\"title\":\"Резервные защиты 1 комплект ВЛ 500 кВ Рязанская ГРЭС – Липецкая Восточная (7SA522)\"}]},\"children\":[]}]}]}]}]},{\"id\":\"1269433496148\",\"operator\":\"Operations\",\"children\":[{\"id\":\"1269433496083\",\"operator\":\"PerformOneOf\",\"children\":[{\"id\":\"1602510392962Операции\",\"operator\":\"Operations\",\"children\":[{\"id\":\"1602510395486\",\"operator\":\"ProvideInWork\",\"children\":[{\"id\":\"b73330e8-cc70-4fcb-a226-b1d4817448f3\",\"operator\":\"EquipmentWithControl\",\"value\":{\"startText\":\"\",\"endText\":\"\",\"equipments\":[{\"id\":\"ce52c056-69a7-eb11-8bb2-0050568d4e18\",\"title\":\"ДФЗ ВЛ 500 кВ Рязанская ГРЭС – Липецкая Западная (ШЭ2710 582)\"}]},\"children\":[]}]}]},{\"id\":\"1602753808340Операции\",\"operator\":\"Operations\",\"children\":[{\"id\":\"1602753811367\",\"operator\":\"ProvideInWork\",\"children\":[{\"id\":\"cee4efbd-0bea-4032-8a75-72abeaa2d6f3\",\"operator\":\"EquipmentWithControl\",\"value\":{\"startText\":\"ТУ\",\"endText\":\"\",\"equipments\":[{\"id\":\"fc76fa4e-69a7-eb11-8bb2-0050568d4e18\",\"title\":\"Резервные защиты 2 комплект ВЛ 500 кВ Рязанская ГРЭС – Липецкая Западная (7SA522)\"}]},\"children\":[]}]}]},{\"id\":\"1602682415577Операции\",\"operator\":\"Operations\",\"children\":[{\"id\":\"1602682418287\",\"operator\":\"ProvideInWork\",\"children\":[{\"id\":\"f0db0eb8-a48f-49bb-80e9-9c6a03ea6e2d\",\"operator\":\"EquipmentWithControl\",\"value\":{\"startText\":\"ТУ\",\"endText\":\"\",\"equipments\":[{\"id\":\"cc58064f-69a7-eb11-8bb2-0050568d4e18\",\"title\":\"Резервные защиты 1 комплект ВЛ 500 кВ Рязанская ГРЭС – Липецкая Западная (7SA522)\"}]},\"children\":[]}]}]}]}]}]",
+        "createdBy": "ODUCN\\Gordeev_DS",
+        "createdDate": "2021-09-07T16:46:21.6674358+03:00",
+        "lastModifiedBy": "ODUCN\\Gordeev_DS",
+        "lastModifiedDate": "2021-09-07T16:46:21.6674361+03:00"
+      }
+    ],
+    "risks": [
+      {
+        "id": "34857efb-e10f-ec11-8ba2-0050568db088",
+        "genBlockId": "d6847efb-e10f-ec11-8ba2-0050568db088",
+        "value": "[{\"id\":\"1602509339077\",\"operator\":\"SensitivityReduction\",\"value\":[{\"acceleration\":0,\"function\":\"\",\"stage\":\"\",\"equipment\":{\"id\":\"cd65c056-69a7-eb11-8bb2-0050568d4e18\",\"title\":\"ДФЗ-503 ВЛ 500 кВ Рязанская ГРЭС – Тамбовская\"}}],\"children\":[{\"id\":\"1602509339077При\",\"operator\":\"InnerOption\",\"value\":1,\"children\":[]},{\"id\":\"1602509339077На\",\"operator\":\"Equipment\",\"value\":[{\"id\":\"b6f4d9f7-67a7-eb11-8bb2-0050568d4e18\",\"title\":\"1 СШ 500 кВ\",\"prefix\":\"ПС 500 кВ Тамбовская\"},{\"id\":\"1c8399f7-67a7-eb11-8bb2-0050568d4e18\",\"title\":\"2 СШ 500 кВ\",\"prefix\":\"ПС 500 кВ Тамбовская\"}],\"children\":[]},{\"id\":\"1602509339077Чувствительность обеспечивается в каскаде\",\"operator\":\"InnerOption\",\"value\":0,\"children\":[]},{\"id\":\"1602509339077Чувствительность остальных защит\",\"operator\":\"InnerOption\",\"value\":1,\"children\":[]},{\"id\":\"1602509339077Тип последствия\",\"operator\":\"InnerOption\",\"value\":1,\"children\":[]},{\"id\":\"1602509339077Объекты последствия\",\"operator\":\"ConsequenceObjectsOperator\",\"children\":[]}]}]",
+        "rowNumber": 0,
+        "mustReviewEquipments": [],
+        "needReview": false,
+        "isDraft": false,
+        "createdBy": "ODUCN\\Gordeev_DS",
+        "createdDate": "2021-09-07T16:46:21.7724008+03:00",
+        "lastModifiedBy": "ODUCN\\Gordeev_DS",
+        "lastModifiedDate": "2021-09-07T16:46:21.7724012+03:00"
+      },
+      {
+        "id": "49857efb-e10f-ec11-8ba2-0050568db088",
+        "genBlockId": "d6847efb-e10f-ec11-8ba2-0050568db088",
+        "value": "[{\"id\":\"1602510109324\",\"operator\":\"NonSelectiveOperation\",\"value\":[{\"time\":1,\"function\":\"ТЗНП\",\"stage\":\"2,3 ступень\",\"equipment\":{\"id\":\"d62d9d52-69a7-eb11-8bb2-0050568d4e18\",\"title\":\"Резервные защиты 1 комплект ВЛ 500 кВ Рязанская ГРЭС – Липецкая Восточная (7SA522)\",\"prefix\":\"ПС 500 кВ Липецкая\"}},{\"time\":1,\"function\":\"ТЗНП\",\"stage\":\"2,3 ступень\",\"equipment\":{\"id\":\"9b149d52-69a7-eb11-8bb2-0050568d4e18\",\"title\":\"Резервные защиты 2 комплект ВЛ 500 кВ Рязанская ГРЭС – Липецкая Восточная (7SA522)\",\"prefix\":\"ПС 500 кВ Липецкая\"}}],\"children\":[{\"id\":\"1602510109324При\",\"operator\":\"InnerOption\",\"value\":1,\"children\":[]},{\"id\":\"1602510109324На\",\"operator\":\"Equipment\",\"value\":[{\"id\":\"043441fc-67a7-eb11-8bb2-0050568d4e18\",\"title\":\"ВЛ 500 кВ Рязанская ГРЭС – Липецкая Западная\"}],\"children\":[]},{\"id\":\"1602510109324Излишнее отключение\",\"operator\":\"ProtectionDevices\",\"value\":[{\"id\":\"053441fc-67a7-eb11-8bb2-0050568d4e18\",\"title\":\"ВЛ 500 кВ Рязанская ГРЭС – Липецкая Восточная\"}],\"children\":[]}]}]",
+        "rowNumber": 1,
+        "mustReviewEquipments": [],
+        "needReview": false,
+        "isDraft": false,
+        "createdBy": "ODUCN\\Gordeev_DS",
+        "createdDate": "2021-09-07T16:46:21.7724207+03:00",
+        "lastModifiedBy": "ODUCN\\Gordeev_DS",
+        "lastModifiedDate": "2021-09-07T16:46:21.7724212+03:00"
+      },
+      {
+        "id": "5e857efb-e10f-ec11-8ba2-0050568db088",
+        "genBlockId": "d6847efb-e10f-ec11-8ba2-0050568db088",
+        "value": "[{\"id\":\"1602510109324\",\"operator\":\"NonSelectiveOperation\",\"value\":[{\"time\":1,\"function\":\"ТЗНП\",\"stage\":\"2,3 ступень\",\"equipment\":{\"id\":\"4f209d52-69a7-eb11-8bb2-0050568d4e18\",\"title\":\"Резервные защиты 1 комплект ВЛ 500 кВ Рязанская ГРЭС – Липецкая Западная (7SA522)\",\"prefix\":\"ПС 500 кВ Липецкая\"}},{\"time\":1,\"function\":\"ТЗНП\",\"stage\":\"2,3 ступень\",\"equipment\":{\"id\":\"de2c9152-69a7-eb11-8bb2-0050568d4e18\",\"title\":\"Резервные защиты 2 комплект ВЛ 500 кВ Рязанская ГРЭС – Липецкая Западная (7SA522)\",\"prefix\":\"ПС 500 кВ Липецкая\"}}],\"children\":[{\"id\":\"1602510109324При\",\"operator\":\"InnerOption\",\"value\":1,\"children\":[]},{\"id\":\"1602510109324На\",\"operator\":\"Equipment\",\"value\":[{\"id\":\"053441fc-67a7-eb11-8bb2-0050568d4e18\",\"title\":\"ВЛ 500 кВ Рязанская ГРЭС – Липецкая Восточная\"}],\"children\":[]},{\"id\":\"1602510109324Излишнее отключение\",\"operator\":\"ProtectionDevices\",\"value\":[{\"id\":\"043441fc-67a7-eb11-8bb2-0050568d4e18\",\"title\":\"ВЛ 500 кВ Рязанская ГРЭС – Липецкая Западная\"}],\"children\":[]}]}]",
+        "rowNumber": 2,
+        "mustReviewEquipments": [],
+        "needReview": false,
+        "isDraft": false,
+        "createdBy": "ODUCN\\Gordeev_DS",
+        "createdDate": "2021-09-07T16:46:21.7724398+03:00",
+        "lastModifiedBy": "ODUCN\\Gordeev_DS",
+        "lastModifiedDate": "2021-09-07T16:46:21.7724402+03:00"
+      },
+      {
+        "id": "74857efb-e10f-ec11-8ba2-0050568db088",
+        "genBlockId": "d6847efb-e10f-ec11-8ba2-0050568db088",
+        "value": "[{\"id\":\"1602515938638\",\"operator\":\"NonSelectiveOperation\",\"value\":[{\"time\":0,\"function\":\"ТЗНП\",\"stage\":\"1 ступень \",\"equipment\":{\"id\":\"555fc056-69a7-eb11-8bb2-0050568d4e18\",\"title\":\"Резервные токовые защиты ВЛ 500 кВ Рязанская ГРЭС – Михайловская Восточная\",\"prefix\":\"ПС 500 кВ Михайловская\"}}],\"children\":[{\"id\":\"1602515938638При\",\"operator\":\"InnerOption\",\"value\":1,\"children\":[]},{\"id\":\"1602515938638На\",\"operator\":\"Equipment\",\"value\":[{\"id\":\"968dd7f3-67a7-eb11-8bb2-0050568d4e18\",\"title\":\"1СШ – 500кВ 1СЕКЦИЯ\"},{\"id\":\"408099f7-67a7-eb11-8bb2-0050568d4e18\",\"title\":\"1СШ – 500кВ 2СЕКЦИЯ\"},{\"id\":\"237621f8-67a7-eb11-8bb2-0050568d4e18\",\"title\":\"2СШ – 500кВ 1СЕКЦИЯ\"},{\"id\":\"f8dfd9f7-67a7-eb11-8bb2-0050568d4e18\",\"title\":\"2СШ – 500кВ 2СЕКЦИЯ\"},{\"id\":\"013441fc-67a7-eb11-8bb2-0050568d4e18\",\"title\":\"ВЛ 500 кВ Рязанская ГРЭС – Михайловская Восточная\"}],\"children\":[]},{\"id\":\"1602515938638Излишнее отключение\",\"operator\":\"ProtectionDevices\",\"value\":[{\"id\":\"013441fc-67a7-eb11-8bb2-0050568d4e18\",\"title\":\"ВЛ 500 кВ Рязанская ГРЭС – Михайловская Восточная\"}],\"children\":[]}]}]",
+        "rowNumber": 3,
+        "mustReviewEquipments": [],
+        "needReview": false,
+        "isDraft": false,
+        "createdBy": "ODUCN\\Gordeev_DS",
+        "createdDate": "2021-09-07T16:46:21.7724608+03:00",
+        "lastModifiedBy": "ODUCN\\Gordeev_DS",
+        "lastModifiedDate": "2021-09-07T16:46:21.7724612+03:00"
+      },
+      {
+        "id": "83857efb-e10f-ec11-8ba2-0050568db088",
+        "genBlockId": "d6847efb-e10f-ec11-8ba2-0050568db088",
+        "value": "[{\"id\":\"1602517111699\",\"operator\":\"NonSelectiveOperation\",\"value\":[{\"time\":1,\"function\":\"ТЗНП\",\"stage\":\"2 ступень\",\"equipment\":{\"id\":\"555fc056-69a7-eb11-8bb2-0050568d4e18\",\"title\":\"Резервные токовые защиты ВЛ 500 кВ Рязанская ГРЭС – Михайловская Восточная\",\"prefix\":\"ПС 500 кВ Михайловская\"}}],\"children\":[{\"id\":\"1602517111699При\",\"operator\":\"InnerOption\",\"value\":1,\"children\":[]},{\"id\":\"1602517111700На\",\"operator\":\"Equipment\",\"value\":[{\"id\":\"e43341fc-67a7-eb11-8bb2-0050568d4e18\",\"title\":\"ВЛ 500 кВ Рязанская ГРЭС – Тамбовская\"}],\"children\":[]},{\"id\":\"1602517111700Излишнее отключение\",\"operator\":\"ProtectionDevices\",\"value\":[{\"id\":\"013441fc-67a7-eb11-8bb2-0050568d4e18\",\"title\":\"ВЛ 500 кВ Рязанская ГРЭС – Михайловская Восточная\"}],\"children\":[]}]}]",
+        "rowNumber": 4,
+        "mustReviewEquipments": [],
+        "needReview": false,
+        "isDraft": false,
+        "createdBy": "ODUCN\\Gordeev_DS",
+        "createdDate": "2021-09-07T16:46:21.7724773+03:00",
+        "lastModifiedBy": "ODUCN\\Gordeev_DS",
+        "lastModifiedDate": "2021-09-07T16:46:21.7724777+03:00"
+      },
+      {
+        "id": "96857efb-e10f-ec11-8ba2-0050568db088",
+        "genBlockId": "d6847efb-e10f-ec11-8ba2-0050568db088",
+        "value": "[{\"id\":\"1602517739816\",\"operator\":\"NonSelectiveOperation\",\"value\":[{\"time\":1,\"function\":\"\",\"stage\":\"2 ступень\",\"equipment\":{\"id\":\"a655c056-69a7-eb11-8bb2-0050568d4e18\",\"title\":\"ДЗ-503 ВЛ 500 кВ Рязанская ГРЭС – Михайловская Восточная\",\"prefix\":\"ПС 500 кВ Михайловская\"}}],\"children\":[{\"id\":\"1602517739816При\",\"operator\":\"InnerOption\",\"value\":3,\"children\":[]},{\"id\":\"1602517739816На\",\"operator\":\"Equipment\",\"value\":[{\"id\":\"053441fc-67a7-eb11-8bb2-0050568d4e18\",\"title\":\"ВЛ 500 кВ Рязанская ГРЭС – Липецкая Восточная\"}],\"children\":[]},{\"id\":\"1602517739816Излишнее отключение\",\"operator\":\"ProtectionDevices\",\"value\":[{\"id\":\"013441fc-67a7-eb11-8bb2-0050568d4e18\",\"title\":\"ВЛ 500 кВ Рязанская ГРЭС – Михайловская Восточная\"}],\"children\":[]}]}]",
+        "rowNumber": 5,
+        "mustReviewEquipments": [],
+        "needReview": false,
+        "isDraft": false,
+        "createdBy": "ODUCN\\Gordeev_DS",
+        "createdDate": "2021-09-07T16:46:21.7724947+03:00",
+        "lastModifiedBy": "ODUCN\\Gordeev_DS",
+        "lastModifiedDate": "2021-09-07T16:46:21.7724952+03:00"
+      },
+      {
+        "id": "a7857efb-e10f-ec11-8ba2-0050568db088",
+        "genBlockId": "d6847efb-e10f-ec11-8ba2-0050568db088",
+        "value": "[{\"id\":\"1602517739816\",\"operator\":\"NonSelectiveOperation\",\"value\":[{\"time\":1,\"function\":\"\",\"stage\":\"2 ступень\",\"equipment\":{\"id\":\"a655c056-69a7-eb11-8bb2-0050568d4e18\",\"title\":\"ДЗ-503 ВЛ 500 кВ Рязанская ГРЭС – Михайловская Восточная\",\"prefix\":\"ПС 500 кВ Михайловская\"}}],\"children\":[{\"id\":\"1602517739816При\",\"operator\":\"InnerOption\",\"value\":3,\"children\":[]},{\"id\":\"1602517739816На\",\"operator\":\"Equipment\",\"value\":[{\"id\":\"043441fc-67a7-eb11-8bb2-0050568d4e18\",\"title\":\"ВЛ 500 кВ Рязанская ГРЭС – Липецкая Западная\"}],\"children\":[]},{\"id\":\"1602517739816Излишнее отключение\",\"operator\":\"ProtectionDevices\",\"value\":[{\"id\":\"013441fc-67a7-eb11-8bb2-0050568d4e18\",\"title\":\"ВЛ 500 кВ Рязанская ГРЭС – Михайловская Восточная\"}],\"children\":[]}]}]",
+        "rowNumber": 6,
+        "mustReviewEquipments": [],
+        "needReview": false,
+        "isDraft": false,
+        "createdBy": "ODUCN\\Gordeev_DS",
+        "createdDate": "2021-09-07T16:46:21.7725103+03:00",
+        "lastModifiedBy": "ODUCN\\Gordeev_DS",
+        "lastModifiedDate": "2021-09-07T16:46:21.7725109+03:00"
+      }
+    ],
+    "createdBy": "system",
+    "createdDate": "2021-11-23T15:33:56.148347+03:00",
+    "lastModifiedBy": "system",
+    "lastModifiedDate": "2021-11-23T15:33:56.1483455+03:00"
+  }

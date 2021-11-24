@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\no-entry-16.png" />
+    <None Remove="Images\ok-16.png" />
+    <None Remove="Images\table-40.png" />
+    <None Remove="Images\warning-16.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="source.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\no-entry-16.png" />
+    <Resource Include="Images\ok-16.png" />
+    <Resource Include="Images\table-40.png" />
+    <Resource Include="Images\warning-16.png" />
+  </ItemGroup>
+
+</Project>
